@@ -2,9 +2,9 @@
 // Connexion à la base de données
 function connectDb() {
     $host = 'localhost';
-    $dbname = 'hat_sale';
-    $username = 'username';
-    $password = 'password';
+    $dbname = 'db_caps';
+    $username = 'Admin';
+    $password = 'Super';
     
     try {
       $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
